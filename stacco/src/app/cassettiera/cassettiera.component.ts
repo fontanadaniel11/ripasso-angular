@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cassettiera',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./cassettiera.component.css']
 })
 export class CassettieraComponent {
-
+@Input() vettore:string[];
+constructor(){
 }
+}
+
